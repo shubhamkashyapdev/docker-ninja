@@ -2,6 +2,7 @@ version: "3.8"
 services:
   api: 
     build: ./api
+    image: dev1800/ninja_api
     container_name: ninja_api_c
     ports: 
       - '5000:5000'
@@ -10,6 +11,7 @@ services:
       - /app/node_modules
   frontend:
     build: ./frontend
+    image: dev1800/ninja_frontend
     container_name: ninja_frontend_c
     ports:
       - '3030:3030'

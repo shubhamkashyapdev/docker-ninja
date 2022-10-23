@@ -8,3 +8,7 @@
 
 # Vite.js React App PORT mapping
 - 5173:3030
+
+# Hub Images
+- dev1800/ninja_api
+- dev1800/ninja_frontend
