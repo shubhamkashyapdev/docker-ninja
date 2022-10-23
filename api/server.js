@@ -57,6 +57,18 @@ app.get("/", (req, res) => {
       age: 45,
       jobRole: "CSS King",
     },
+    {
+      id: 6,
+      name: "Jack Hamilton",
+      age: 45,
+      jobRole: "Senior React.js Developer",
+    },
+    {
+      id: 5,
+      name: "Colt Steel",
+      age: 40,
+      jobRole: "Udemy Instructor God",
+    },
   ])
 })
 
