@@ -8,3 +8,10 @@ services:
     volumes: 
       - ./api:/app
       - /app/node_modules
+  frontend:
+    build: ./frontend
+    container_name: ninja_frontend_c
+    ports:
+      - '3030:3030'
+    stdin_open: true
+    tty: true
